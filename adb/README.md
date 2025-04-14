@@ -7,7 +7,7 @@ Steps:
 2. Execute the following commands:
 
 ```
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/mickaelmendes50/dotfiles/main/adb/adb-usb-driver.ps1" -OutFile "C:\adb-usb-driver.ps1"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/nerotuno/knofiles/main/adb/adb-usb-driver.ps1" -OutFile "C:\adb-usb-driver.ps1"
 ```
 
 ```
