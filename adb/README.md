@@ -16,8 +16,8 @@ Powershell.exe -ExecutionPolicy RemoteSigned -File  "C:\adb-usb-driver.ps1"
 
 ### Distribuições baseadas em ArchLinux
 Passos:
-1. Open a Console/Terminal window
-2. Execute the following command:
+1. Abra uma janela de Console/Terminal
+2. Execute o seguinte comando:
 
 ```
 sudo pacman -S android-tools
