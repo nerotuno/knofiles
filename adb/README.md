@@ -29,13 +29,3 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/nerotuno/knofiles/main
 Powershell.exe -ExecutionPolicy RemoteSigned -File  "C:\variable_adb_windows.ps1"
 ```
 3. Aproveite :)
-
-### Distribuições baseadas em ArchLinux
-Passos:
-1. Abra uma janela de Console/Terminal
-2. Execute o seguinte comando:
-
-```
-sudo pacman -S android-tools
-```
-3. Aproveite :)
