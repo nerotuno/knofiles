@@ -2,7 +2,7 @@
 ### PowerShell Script for Windows 10/11
 This scrpit is going to download and config platform-tools and Google USB Driver as Environment Variable.
 
-Passos:
+Steps:
 1. Run PowerShell as Admnistrator
 2. Execute the following commands:
 
@@ -15,11 +15,11 @@ Powershell.exe -ExecutionPolicy RemoteSigned -File  "C:\adb-usb-driver.ps1"
 3. Go to Windows Update and check for "Optional Updates"
 4. Enjoy :)
 
-# Adicionar variavel adb no windows
-### PowerShell Script para Windows 10/11
-Este script irá adicionar a variavel ADB no windows.
+# Add adb variable in windows
+### PowerShell Script for Windows 10/11
+This script will add the ADB variable in windows.
 
-Passos:
+Steps:
 1. Run PowerShell as Admnistrator
 2. Execute the following commands:
 
