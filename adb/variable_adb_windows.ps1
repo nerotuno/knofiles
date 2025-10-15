@@ -1,5 +1,5 @@
 # Path to the folder where ADB is located
-$adbPath = "C:\YourPath\platform-tools"  # <--- **ATTENTION: Replace with your actual path**
+$adbPath = "C:\platform-tools"  # <--- **ATTENTION: Replace with your actual path**
 
 # Name of the environment variable
 $envName = "Path"
