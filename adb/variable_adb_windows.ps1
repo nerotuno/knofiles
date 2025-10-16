@@ -36,7 +36,4 @@ Write-Host "WARNING: You MUST CLOSE and RE-OPEN the Command Prompt or PowerShell
 Write-Host "for the change to take effect."
 Write-Host ""
 
-# Comando adicionado para apagar o próprio arquivo de script
-$MyInvocation.MyCommand.Path | Remove-Item -Force
-
 Pause
