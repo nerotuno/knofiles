@@ -8,7 +8,7 @@ $PlatformToolsPath = "C:\platform-tools"
 $CurrentPath = [System.Environment]::GetEnvironmentVariable('Path', 'User')
 
 # 3. Adiciona o novo caminho à variável Path do USUÁRIO (permanente)
-Write-Host "Adicionando $PlatformToolsPath à variável Path do USUÁRIO..."
+Write-Host "Adding $PlatformToolsPath to the USER's Path variable..."
 
 # Verifica se o caminho já existe para evitar duplicatas
 if ($CurrentPath -notcontains $PlatformToolsPath) {
@@ -20,20 +20,20 @@ if ($CurrentPath -notcontains $PlatformToolsPath) {
     
     Write-Host ""
     Write-Host "========================================================="
-    Write-Host "SUCESSO! Caminho enviado para a variavel de ambiente Path."
+    Write-Host "SUCCESS! Path sent to an environment variable Path."
     Write-Host "========================================================="
     Write-Host ""
 } else {
     Write-Host ""
     Write-Host "=========================================================================="
-    Write-Host "ATENÇÃO: O caminho $PlatformToolsPath já existe na variável Path do USUÁRIO."
+    Write-Host "WARNING: The path $PlatformToolsPath already exists in the USER's Path variable."
     Write-Host "=========================================================================="
     Write-Host ""
 }
 
 # 4. Mensagem de atenção (igual ao original)
-Write-Host "ATENÇÃO: Você DEVE FECHAR e ABRIR novamente o Prompt de Comando ou PowerShell"
-Write-Host "para que a alteração entre em vigor."
+Write-Host "WARNING: You MUST CLOSE and RE-OPEN the Command Prompt or PowerShell"
+Write-Host "for the change to take effect."
 Write-Host ""
 
 Pause
