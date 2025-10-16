@@ -7,10 +7,10 @@ Steps:
 2. Execute the following commands:
 
 ```
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/nerotuno/knofiles/main/adb/adb-usb-driver.ps1" -OutFile "C:\adb-usb-driver.ps1"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/nerotuno/knofiles/main/adb/adb_usb_driver.ps1" -OutFile "C:\adb_usb_driver.ps1"
 ```
 ```
-Powershell.exe -ExecutionPolicy RemoteSigned -File  "C:\adb-usb-driver.ps1"
+Powershell.exe -ExecutionPolicy RemoteSigned -File  "C:\adb_usb_driver.ps1"
 ```
 3. Go to Windows Update and check for "Optional Updates"
 4. Enjoy :)
