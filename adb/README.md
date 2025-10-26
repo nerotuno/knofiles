@@ -12,8 +12,7 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/nerotuno/knofiles/main
 ```
 Powershell.exe -ExecutionPolicy RemoteSigned -File  "C:\adb_usb_driver.ps1"
 ```
-3. Go to Windows Update and check for "Optional Updates"
-4. Enjoy :)
+3. Enjoy :)
 
 # Add adb variable in windows
 ### PowerShell Script for Windows 10/11
