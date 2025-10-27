@@ -14,6 +14,16 @@ Powershell.exe -ExecutionPolicy RemoteSigned -File  "C:\adb_usb_driver.ps1"
 ```
 3. Enjoy :)
 
+# ArchLinux based distributions
+Steps:
+
+1. Open a Console/Terminal window
+2. Execute the following command:
+```
+sudo pacman -S android-tools
+```
+3. Enjoy :)
+
 # Add adb variable in windows
 ### PowerShell Script for Windows 10/11
 This script will add the ADB variable in windows.
