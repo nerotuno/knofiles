@@ -39,4 +39,3 @@ Steps:
 sudo pacman -S android-tools
 ```
 3. Enjoy :)
-4. 
