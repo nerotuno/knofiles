@@ -10,7 +10,7 @@ Steps:
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/nerotuno/knofiles/main/adb/adb_usb_driver.ps1" -OutFile "C:\adb_usb_driver.ps1"
 ```
 ```
-Powershell.exe -ExecutionPolicy RemoteSigned -File  "C:\adb_usb_driver.ps1"
+Powershell.exe -ExecutionPolicy Bypass -File "C:\adb_usb_driver.ps1"
 ```
 3. Enjoy :)
 
@@ -26,7 +26,7 @@ Steps:
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/nerotuno/knofiles/main/adb/variable_adb_windows.ps1" -OutFile "C:\variable_adb_windows.ps1"
 ```
 ```
-Powershell.exe -ExecutionPolicy RemoteSigned -File  "C:\variable_adb_windows.ps1"
+Powershell.exe -ExecutionPolicy Bypass -File "C:\variable_adb_windows.ps1"
 ```
 3. Enjoy :)
 
